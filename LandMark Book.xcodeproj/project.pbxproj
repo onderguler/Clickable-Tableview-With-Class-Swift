@@ -13,6 +13,10 @@
 		C7186BE622A00E5800A94ABB /* LandMark_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7186BE422A00E5800A94ABB /* LandMark_Book.xcdatamodeld */; };
 		C7186BE822A00E5F00A94ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7186BE722A00E5F00A94ABB /* Assets.xcassets */; };
 		C7186BEB22A00E5F00A94ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7186BE922A00E5F00A94ABB /* LaunchScreen.storyboard */; };
+		C7186BF822A013B800A94ABB /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7186BF722A013B800A94ABB /* kremlin.jpg */; };
+		C7186BFA22A0184000A94ABB /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7186BF922A0184000A94ABB /* greatwall.jpg */; };
+		C7186BFC22A01E6F00A94ABB /* colleseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7186BFB22A01E6F00A94ABB /* colleseum.jpg */; };
+		C7186BFE22A01F3700A94ABB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7186BFD22A01F3700A94ABB /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C7186BE722A00E5F00A94ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7186BEA22A00E5F00A94ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7186BEC22A00E5F00A94ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7186BF722A013B800A94ABB /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kremlin.jpg; path = ../../../../images/kremlin.jpg; sourceTree = "<group>"; };
+		C7186BF922A0184000A94ABB /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+		C7186BFB22A01E6F00A94ABB /* colleseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colleseum.jpg; sourceTree = "<group>"; };
+		C7186BFD22A01F3700A94ABB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,25 @@
 			children = (
 				C7186BDD22A00E5800A94ABB /* AppDelegate.swift */,
 				C7186BDF22A00E5800A94ABB /* ViewController.swift */,
+				C7186BFD22A01F3700A94ABB /* ImageViewController.swift */,
 				C7186BE122A00E5800A94ABB /* Main.storyboard */,
 				C7186BE722A00E5F00A94ABB /* Assets.xcassets */,
 				C7186BE922A00E5F00A94ABB /* LaunchScreen.storyboard */,
 				C7186BEC22A00E5F00A94ABB /* Info.plist */,
 				C7186BE422A00E5800A94ABB /* LandMark_Book.xcdatamodeld */,
+				C7186BF622A0139400A94ABB /* images */,
 			);
 			path = "LandMark Book";
+			sourceTree = "<group>";
+		};
+		C7186BF622A0139400A94ABB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C7186BFB22A01E6F00A94ABB /* colleseum.jpg */,
+				C7186BF922A0184000A94ABB /* greatwall.jpg */,
+				C7186BF722A013B800A94ABB /* kremlin.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7186BFA22A0184000A94ABB /* greatwall.jpg in Resources */,
+				C7186BFC22A01E6F00A94ABB /* colleseum.jpg in Resources */,
+				C7186BF822A013B800A94ABB /* kremlin.jpg in Resources */,
 				C7186BEB22A00E5F00A94ABB /* LaunchScreen.storyboard in Resources */,
 				C7186BE822A00E5F00A94ABB /* Assets.xcassets in Resources */,
 				C7186BE322A00E5800A94ABB /* Main.storyboard in Resources */,
@@ -140,6 +163,7 @@
 			files = (
 				C7186BE022A00E5800A94ABB /* ViewController.swift in Sources */,
 				C7186BDE22A00E5800A94ABB /* AppDelegate.swift in Sources */,
+				C7186BFE22A01F3700A94ABB /* ImageViewController.swift in Sources */,
 				C7186BE622A00E5800A94ABB /* LandMark_Book.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
